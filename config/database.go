@@ -9,7 +9,7 @@ import (
 
 func ConnectDB() *sql.DB {
 	// format: username:password@tcp(host:port)/dbname
-	dsn := "root:password@tcp(127.0.0.1:3306)/lc3"
+	dsn := "root:password@tcp(127.0.0.1:3306)/p1ppteam3"
 
 	db, err := sql.Open("mysql", dsn)
 	if err != nil {
